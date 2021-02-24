@@ -1,6 +1,7 @@
 html {
   height: 90vh;
 }
+
 body {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -38,14 +39,15 @@ body {
   align-items: center;
 }
 
-.temp {
+.tempDisplay {
   font-size: xx-large;
 }
 
-.feelsLike {
+.feelsLikeDisplay {
   font-size: large;
 }
 
-.description {
+.descriptionDisplay {
   font-size: small;
+  text-transform: capitalize;
 }

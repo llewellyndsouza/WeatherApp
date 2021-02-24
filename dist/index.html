@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
     <title>Weather App</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="header">
-        <div class="headerName">
-            <h1>Weather App</h1>
-            <h4>by Llewellyn D'souza</h4>
-            <h5>Github <a href="http://github.com/llewellyndsouza">@llewellyndsouza</a></h5>
-        </div>
-        <div class="headerSearch">
-            <input type="text" name="cityName" id="cityTextInput" placeholder="Eg. 'London'">
-            <button id='searchCityButton'>Search</button>
-        </div>
+      <div class="headerName">
+        <h1>Weather App</h1>
+        <h4>by Llewellyn</h4>
+        <h5>
+          Github
+          <a href="http://github.com/llewellyndsouza">@llewellyndsouza</a>
+        </h5>
+      </div>
+      <div class="headerSearch">
+        <input
+          type="text"
+          name="cityName"
+          id="cityTextInput"
+          placeholder="Eg. 'London'"
+        />
+        <button id="searchCityButton">Search</button>
+      </div>
     </div>
     <div class="container">
-        <div>Outside temperature:<span class="temp">20'C</span></div>
-        <div>Feels like:<span class="feelsLike">15'C</span></div>
-        <div class="description">Scattered clouds</div>
+      <div class="locationDisplay">Loading</div>
+      <div>Outside temperature: <span class="tempDisplay">00</span>'C</div>
+      <div>Feels like: <span class="feelsLikeDisplay">00</span>'C</div>
+      <div class="descriptionDisplay">Loading</div>
     </div>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
