@@ -1,5 +1,6 @@
 html {
   height: 90vh;
+  background-color: skyblue;
 }
 
 body {
@@ -12,12 +13,13 @@ body {
 .header {
   display: flex;
   width: inherit;
-  align-items: baseline;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .headerName {
-  background-color: aquamarine;
-  width: 80%;
+  width: 100%;
 }
 
 .headerName > * {
@@ -25,12 +27,11 @@ body {
 }
 
 .headerSearch {
-  background-color: salmon;
   width: auto;
+  display: flex;
 }
 
 .container {
-  background-color: lightblue;
   display: flex;
   height: 100%;
   flex-direction: column;

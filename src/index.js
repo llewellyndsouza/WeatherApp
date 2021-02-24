@@ -28,8 +28,8 @@ import getWeatherData from "./weather.js";
 
   function updateDisplay(data) {
     locationDisplay.innerText = data.name + ", " + data.sys.country;
-    tempDisplay.innerText = data.main.temp-273.15;
-    feelsLikeDisplay.innerText = data.main.feels_like-273.15;
+    tempDisplay.innerText = (data.main.temp-273.15).toFixed(2);
+    feelsLikeDisplay.innerText = (data.main.feels_like-273.15).toFixed(2);
     descriptionDisplay.innerText = data.weather[0].description;
   }
 
