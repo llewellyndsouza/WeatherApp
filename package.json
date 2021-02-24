@@ -1,0 +1,25 @@
+{
+  "name": "WeatherApp",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llewellyndsouza/WeatherApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llewellyndsouza/WeatherApp/issues"
+  },
+  "homepage": "https://github.com/llewellyndsouza/WeatherApp#readme",
+  "devDependencies": {
+    "webpack": "^5.24.1",
+    "webpack-cli": "^4.5.0"
+  }
+}

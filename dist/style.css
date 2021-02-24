@@ -1,0 +1,51 @@
+html {
+  height: 90vh;
+}
+body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  width: inherit;
+  height: inherit;
+}
+
+.header {
+  display: flex;
+  width: inherit;
+  align-items: baseline;
+}
+
+.headerName {
+  background-color: aquamarine;
+  width: 80%;
+}
+
+.headerName > * {
+  margin: 0;
+}
+
+.headerSearch {
+  background-color: salmon;
+  width: auto;
+}
+
+.container {
+  background-color: lightblue;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp {
+  font-size: xx-large;
+}
+
+.feelsLike {
+  font-size: large;
+}
+
+.description {
+  font-size: small;
+}
